@@ -1,12 +1,13 @@
 
 
-      </div>
+          </div>
 
-    </div>
+        </div>
     <!-- /.row -->
     
-  </div>
+      </div>
   <!-- /.container -->
   
 
+    </div>
   </div>

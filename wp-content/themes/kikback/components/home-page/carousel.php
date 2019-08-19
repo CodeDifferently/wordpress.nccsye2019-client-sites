@@ -1,20 +1,7 @@
 
   
 
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h1 class="mt-5"> </h1>
-            <p class="lead"> </p>
-            <ul class="list-unstyled">
-             
-              <li>View the <i>Purchase</i> page by clicking <a href="./purchase-item/index.html">here</a>.</li>
-              
-            </ul>
-          </div>
-        </div>
-      </div>
+
      <!-- The slideshow -->  
    <center>
     <div id="demo" class="carousel slide" data-ride="carousel">
@@ -57,7 +44,7 @@
           alt="yeezy" width="548.781" height="543.031">
         </div>
         
-          <div class="carousel-item">
+        <div class="carousel-item">
           <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/58682416_2385013675063737_4177971085481869312_n.jpg?_nc_cat=101&_nc_oc=AQkoZXuRYXKhKtcGmScJ7e9M8nXhJYsD_BTUj8qB1u5z5xlg0Mwd9LNjhjRSjffVhHc&_nc_ht=scontent-lga3-1.xx&oh=4a9696b33ae4cfa3b8001dc9b784360c&oe=5DE1BDF0"
           alt="Back t-shirt logo" width="548.781" height="543.031">
         </div>

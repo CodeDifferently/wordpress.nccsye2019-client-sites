@@ -1,18 +1,15 @@
 <div class="card h-100">
   <?php insertImage("/resources/img/kikback-tkbsteals.png", 'class="card-img-top"'); ?>
   <div class="card-body">
-    <h4 class="card-title">
-    <?php insertLink("/wordpress/shop-page/kickbck-steals/page1") ?>TBK Steals</a></li>
-    </h4>
+
 
     <div class="container">
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Past Events</th>
-          </tr>
-        </thead>
+      <h4 class="card-title">
+        <?php insertLink("/wordpress/shop-page/kickbck-steals/page1") ?>TBK Steals</a>
+      </h4>
+      <h3>Past Events</h3>
 
+      <table class="table">
         <tbody>
           <?php
               $month = "Apr";
@@ -37,7 +34,7 @@
               $dayOfMonth = "10th";
               $dayOfWeek = "Saturday";
               $timeOfDay = "12:00PM EDT";
-              $numberOfGuests = 8;
+              $numberOfGuests = 7;
               $location = "16 North Broad Street, Wilmington, DE";
               include("_kikback-event.php");?>
         </tbody>

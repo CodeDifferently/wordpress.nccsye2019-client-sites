@@ -2,12 +2,14 @@
 .kikback-events {
     display: inline-block;
 }
+.kikback-events .table {
+    color:white;
+}
 
 .kikback-events .card-body {
     display: inline-block;
-    color: white;
     background-color: black;
-    min-width: 500px;
+    min-width: 350px;
     padding: 10px;
 }
 

@@ -1,7 +1,7 @@
 body {
     color: lightgray;
     /* For browsers that do not support gradients */
-	background-image: linear-gradient(red, black);
+	background-image: linear-gradient(darkred, black);
 	/* Standard syntax (must be last) */
 	background-repeat: no-repeat;
 }
