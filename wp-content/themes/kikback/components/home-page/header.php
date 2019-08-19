@@ -6,7 +6,6 @@
       Get Directions
     </a>
   </div>
-</center>
 
 <div class="kikback-events">
   <div class="container">

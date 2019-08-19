@@ -6,6 +6,7 @@
   -ms-flex-direction: column;
   flex-direction: column;
   min-width: 0;
+  width: 18rem;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
