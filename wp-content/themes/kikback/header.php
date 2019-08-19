@@ -19,7 +19,9 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a href="./index.html" id="logo"> <img src="./img/Navbar.jpg"></a>
+        <a href="./index.html" id="logo">
+        <?php insertImage("/resources/img/kikback-logo.jpg", 'class="card-img-top"'); ?>
+        </a>
       </li>
 
       <!-- DropDown NavBar 1 Begins Here  -->
