@@ -1,0 +1,44 @@
+body {
+    color: lightgray;
+    /* For browsers that do not support gradients */
+	background-image: linear-gradient(red, black);
+	/* Standard syntax (must be last) */
+	background-repeat: no-repeat;
+}
+
+.social-icons a {
+	display: inline-block;
+	height: 3.5rem;
+	width: 3.5rem;
+	background-color: red;
+	color: #fff!important;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 3.5rem;
+	margin-right: 1rem
+}
+
+.dev-icons {
+	font-size: 3rem
+}
+
+.dev-icons .list-inline-item i:hover {
+	color: white;
+}
+
+#right-footer {
+	float: right;
+	text-align: right
+}
+
+#left-footer {
+	float: left;
+	text-align: left
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 50%;
+    height: 50%;
+}
