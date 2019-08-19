@@ -6,6 +6,11 @@ body {
 	background-repeat: no-repeat;
 }
 
+/* change color of shopping-cart icon */
+.fa-shopping-cart {
+	color: darkred;
+}
+
 .social-icons a {
 	display: inline-block;
 	height: 3.5rem;
@@ -18,7 +23,6 @@ body {
 	line-height: 3.5rem;
 	margin-right: 1rem
 }
-
 .dev-icons {
 	font-size: 3rem
 }

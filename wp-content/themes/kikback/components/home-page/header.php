@@ -11,3 +11,6 @@
     </a>
   </div>
 </center>
+
+<div class="kikback-events">
+  <div class="row" id="home-page">

@@ -1,0 +1,16 @@
+
+.kikback-events {
+    display: inline-block;
+}
+
+.kikback-events .card-body {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    min-width: 500px;
+    padding: 10px;
+}
+
+.kikback-events a {
+    color: darkred;
+}

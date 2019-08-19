@@ -1,27 +1,11 @@
-<?php 
-    $img = "/resources/img/placeholder-700x400.png";
-    $name = "Person Name";
-    $description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.";
-    $link = "https://google.com";
-    include('_person-card.php') ?>
+    <div class="col-md-3" id="kikback-events-left">
+        <?php  include('kikback-events.php') ?>
+    </div>
+    <div class="col-md-7">
+        <?php  include('carousel.php') ?>
+    </div>
+    <div class="col-md-3" id="kikback-events-right">
+        <?php  include('kikback-events.php') ?>
+    </div>
 
-<?php 
-    $img = "/resources/img/placeholder-700x400.png";
-    $name = "Person Name";
-    $description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.";
-    $link = "https://google.com";
-    include('_person-card.php') ?>
-
-<?php 
-    $img = "/resources/img/placeholder-700x400.png";
-    $name = "Person Name";
-    $description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.";
-    $link = "https://google.com";
-    include('_person-card.php') ?>
-
-<?php 
-    $img = "/resources/img/placeholder-700x400.png";
-    $name = "Person Name";
-    $description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.";
-    $link = "https://google.com";
-    include('_person-card.php') ?>
+    

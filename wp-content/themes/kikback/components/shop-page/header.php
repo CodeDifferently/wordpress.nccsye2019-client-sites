@@ -1,6 +1,6 @@
 <body> <!-- body begins here -->
   <!-- Page Content -->
-  <div class="container">
+  <div class="container" id="shop-page">
 
     <div class="row">
 

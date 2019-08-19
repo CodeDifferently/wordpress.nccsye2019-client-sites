@@ -26,13 +26,16 @@ function load_stylesheets() {
     register_and_enqueue_style('font-nunito', 'https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
     register_and_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.6.3/css/all.css');
     
+    register_and_enqueue_local_style('general-style', 'general-style.css');
+    register_and_enqueue_local_style('search-button', 'search-button.css');
     register_and_enqueue_local_style('front-page', 'front-page.css');
     register_and_enqueue_local_style('home-page', 'home-page.css');
     register_and_enqueue_local_style('shop-page', 'shop-page.css');
     register_and_enqueue_local_style('purchase-page', 'purchase-page.css');
     register_and_enqueue_local_style('about-page', 'about-page.css');
+
+    register_and_enqueue_local_style('kikback-events', 'kikback-events.css');
     
-    register_and_enqueue_local_style('general-style', 'general-style.css');
     register_and_enqueue_local_style('social-icons', 'social-icons.css');
 }
 

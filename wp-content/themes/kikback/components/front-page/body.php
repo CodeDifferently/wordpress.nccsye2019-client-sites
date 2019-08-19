@@ -1,6 +1,6 @@
 
   <!-- Page Content -->
-  <div class="container">
+  <div class="container" id="front-page">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h1 class="mt-5">CodeDifferently Wordpress Starter Template</h1>
