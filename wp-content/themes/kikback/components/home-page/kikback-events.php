@@ -4,9 +4,6 @@
 
 
     <div class="container">
-      <h4 class="card-title">
-        <?php insertLink("/wordpress/shop-page/kickbck-steals/page1") ?>TBK Steals</a>
-      </h4>
       <h3>Past Events</h3>
 
       <table class="table">
@@ -15,30 +12,33 @@
               $month = "Apr";
               $dayOfMonth = "28th";
               $dayOfWeek = "Saturday";
-              $timeOfDay = "02:00AM EDT";
+              $timeOfDay = "02:00AM";
               $numberOfGuests = 8;
-              $location = "Middletown";
+              $location = "16 North Broad Street, Middletown, DE";
               include("_kikback-event.php");?>
 
           <?php
               $month = "Mar";
               $dayOfMonth = "24th";
               $dayOfWeek = "Saturday";
-              $timeOfDay = "12:00PM EDT";
+              $timeOfDay = "12:00PM";
               $numberOfGuests = 9;
-              $location = "Middletown";
+              $location = "16 North Broad Street, Middletown, DE";
               include("_kikback-event.php");?>
 
           <?php
               $month = "Feb";
               $dayOfMonth = "10th";
               $dayOfWeek = "Saturday";
-              $timeOfDay = "12:00PM EDT";
+              $timeOfDay = "12:00PM";
               $numberOfGuests = 7;
-              $location = "16 North Broad Street, Wilmington, DE";
+              $location = "16 North Broad Street, Middletown, DE";
               include("_kikback-event.php");?>
         </tbody>
       </table>
     </div>
   </div>
+  <h4 class="card-title">
+    <?php insertAnchor("/wordpress/shop-page/kickbck-steals/page1") ?>Current TBK Steals</a>
+  </h4>
 </div>
