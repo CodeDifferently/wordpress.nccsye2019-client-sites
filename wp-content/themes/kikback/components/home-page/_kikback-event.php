@@ -6,7 +6,7 @@
   
   <td>
     <?php echo $dayOfWeek ?><br>
-    <?php echo $timeOfDay ?><br><br><br>
+    <?php echo $timeOfDay ?><br><br>
     <?php echo $numberOfGuests?> guests
   </td>
 

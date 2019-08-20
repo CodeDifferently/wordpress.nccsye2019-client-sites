@@ -9,12 +9,15 @@
       <table class="table">
         <tbody>
           <?php
+            $kikbackLocation = "16N Broad Street Middletown, DE";?>
+
+          <?php
               $month = "Apr";
               $dayOfMonth = "28th";
               $dayOfWeek = "Saturday";
               $timeOfDay = "02:00AM";
               $numberOfGuests = 8;
-              $location = "16 North Broad Street, Middletown, DE";
+              $location = $kikbackLocation;
               include("_kikback-event.php");?>
 
           <?php
@@ -23,7 +26,7 @@
               $dayOfWeek = "Saturday";
               $timeOfDay = "12:00PM";
               $numberOfGuests = 9;
-              $location = "16 North Broad Street, Middletown, DE";
+              $location = $kikbackLocation;
               include("_kikback-event.php");?>
 
           <?php
@@ -32,7 +35,7 @@
               $dayOfWeek = "Saturday";
               $timeOfDay = "12:00PM";
               $numberOfGuests = 7;
-              $location = "16 North Broad Street, Middletown, DE";
+              $location = $kikbackLocation;
               include("_kikback-event.php");?>
         </tbody>
       </table>
