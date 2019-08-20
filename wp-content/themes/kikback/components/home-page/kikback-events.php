@@ -4,6 +4,7 @@
 
 
     <div class="container">
+      <br>
       <h3>Past Events</h3>
 
       <table class="table">
