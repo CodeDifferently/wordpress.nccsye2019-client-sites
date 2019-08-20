@@ -9,7 +9,7 @@
     <div class="container">
       <?php insertImage("/resources/img/kikback-logo-large-white.png", 'style="width:25%; height:25%;"'); ?>
       <br>
-      Copyright &copy; Your Website 2019
+      Copyright &copy; The KikBack 2019
     </div>
   </footer>
   <!-- Footer ends here -->
