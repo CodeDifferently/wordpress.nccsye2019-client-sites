@@ -36,6 +36,7 @@ function load_stylesheets() {
 
     register_and_enqueue_local_style('kikback-events', 'kikback-events.css');
     register_and_enqueue_local_style('card-styling', 'card-styling.css');
+    register_and_enqueue_local_style('carousel-styling', 'carousel-styling.css');
     
     register_and_enqueue_local_style('social-icons', 'social-icons.css');
 }
