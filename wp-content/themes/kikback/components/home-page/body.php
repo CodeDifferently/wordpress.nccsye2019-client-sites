@@ -1,5 +1,5 @@
 <!-- column 1 -->
-<div class="col-md-3" id="kikback-events-left">
+<div class="col-md-3">
     <?php  include('kikback-events.php') ?>
 </div>
 
@@ -11,6 +11,6 @@
 </div>
 
 <!-- column 3 -->
-<div class="col-md-3" id="kikback-events-right"> 
+<div class="col-md-3"> 
     <?php  include('kikback-events.php') ?>
 </div>
