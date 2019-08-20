@@ -7,7 +7,8 @@
 <div class="col-md-6">
     <?php  include('carousel.php') ?>
     <br><br><br>
-    <?php  include('grand-opening-video.php') ?>
+    <?php  include('carousel-multi-item.php') ?>
+    <!-- </?php  include('grand-opening-video.php') ?> -->
 </div>
 
 <!-- column 3 -->
