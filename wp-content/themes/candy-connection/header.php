@@ -8,11 +8,11 @@
   <!-- Navigation -->
   <ul class="topnav" align="center">
     <center>
-      <li><img src="./cc-logo.PNG" height="auto" width="45%" id="Logo"></li>  
+      <li><?php insertimage("/resources/img/candy-connection-logo.png", 'height="auto" width="45%" id="Logo"') ?></li>  
       <li><a class="active" href="..\Main-Page\index.html">Home</a></li>
       <li><?php insertLink("/candy-connection/about")?>About</a></li>
-      <li><?php insertLink("/candy-connection/shopping/cotten-candy")?>Cotton Candy</a></li>
-      <li><?php insertLink("/candy-connection/shopping/italian-ice")?>Italian Ice</a></li>
+      <li><?php insertLink("/candy-connection/cotton-candy")?>Cotton Candy</a></li>
+      <li><?php insertLink("/candy-connection/italian-ice")?>Italian Ice</a></li>
       <li><?php insertLink("/candy-connection/special-events")?>Special Events</a></li>
       <li><?php insertLink("/candy-connection/shopping/cart", 'class="icon-button shopping-cart fa-lg"')?><i class="fa fa-shopping-cart"></i><span></span></a>
       <li><a href="https://www.instagram.com/candyconnections/" align="Right" target="_blank"><i class="fa fa-instagram"></i></a>
