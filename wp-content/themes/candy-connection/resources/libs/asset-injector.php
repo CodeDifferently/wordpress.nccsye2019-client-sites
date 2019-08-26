@@ -11,6 +11,11 @@
 
 
 <?php 
+
+function insertHomeLink() {
+    echo "<a href=\"" . home_url() . "\">";
+}
+
 function insertImage($path, $additional_attributes='') {
     echo getInsertImage($path, $additional_attributes);
 }

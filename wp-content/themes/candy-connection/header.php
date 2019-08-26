@@ -9,7 +9,7 @@
   <ul class="topnav" align="center">
     <center>
       <li><?php insertimage("/resources/img/candy-connection-logo.png", 'height="auto" width="45%" id="Logo"') ?></li>  
-      <li><a class="active" href="..\Main-Page\index.html">Home</a></li>
+      <li><?php insertHomeLink()?>Home</a></li>
       <li><?php insertLink("/candy-connection/about")?>About</a></li>
       <li><?php insertLink("/candy-connection/cotton-candy")?>Cotton Candy</a></li>
       <li><?php insertLink("/candy-connection/italian-ice")?>Italian Ice</a></li>
