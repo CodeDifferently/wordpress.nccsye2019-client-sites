@@ -1,6 +1,5 @@
 <center>
   <div class="col-lg-9">
-
     <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -9,13 +8,17 @@
       </ol>
       <div class="carousel-inner" role="listbox" id="top-carousel">
         <div class="carousel-item active">
-          <img class="d-block img-fluid" src="./main-pic.JPG" height="450" width="245" alt="Second slide">
+        <?php insertImage("/resources/img/carousel-images/cotton-candy-family.jpg",
+            'class="d-block img-fluid" height="450" width="245"') ?>
         </div>
         <div class="carousel-item">
-          <img class="d-block img-fluid" src="./Home-2.JPEG" height="450" width="245" alt="Second slide">
+          <?php insertImage("/resources/img/carousel-images/cotton-candy-umbrella.jpg",
+            'class="d-block img-fluid"  height="450" width="245"') ?>
         </div>
+
         <div class="carousel-item">
-          <img class="d-block img-fluid" src="./Home-3.jpg" height="450" width="245" alt="Third slide">
+          <?php insertImage("/resources/img/carousel-images/cotton-candy-family.jpg",
+            'class="d-block img-fluid"  height="450" width="245"') ?>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
